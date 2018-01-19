@@ -17,7 +17,7 @@ export default class Head extends React.Component {
             'width': '6%',
             'top': '55%',
             'left': '48%',
-            'border-radius':'100%'
+            'borderRadius':'100%'
         }
         return (
             <div className={styles.head} style={propStyle}>
