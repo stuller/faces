@@ -3,4 +3,9 @@
     width:100%;
     border-radius:100%;
     position:absolute;
+    background-image: radial-gradient(
+            circle,
+            rgba(255,255,255,.5),
+            rgba(255,255,255,0)
+    );
 }
