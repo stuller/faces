@@ -10,9 +10,19 @@ export default class Head extends React.Component {
             'height': this.props.size,
             'width': this.props.size
         }
+        let noseStyle = {
+            'position': 'absolute',
+            'backgroundColor': 'white',
+            'height': '6%',
+            'width': '6%',
+            'top': '55%',
+            'left': '48%',
+            'border-radius':'100%'
+        }
         return (
             <div className={styles.head} style={propStyle}>
                 {this.props.children}
+                <div style={noseStyle}> </div>
             </div>
         )
     }
